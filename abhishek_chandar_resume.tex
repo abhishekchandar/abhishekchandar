@@ -1,0 +1,299 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage[sfdefault, light]{FiraSans}
+
+\usepackage[T1]{fontenc}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\linespread{1.02}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{\firasemibold
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth \firabook}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://www.linkedin.com/in/abhishekchandar}{\Large \firasemibold Abhishek Chandar}} & Email : \href{mailto:abhishekchandar23@gmail.com}{abhishekchandar23@gmail.com}\\
+  \href{http://www.linkedin.com/in/abhishekchandar}{\faLinkedin/abhishekchandar} & \href{http://www.medium.com/abhishekchandar}{\faMediumM/abhishekchandar}\\
+  \href{http://www.github.com/abhishekchandar}{\faGithub
+/abhishekchandar} & Mobile : +91-8939343216 
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\firamedium SRM Institute of Science and Technology}{Chennai, IN}
+      {Bachelor of Technology in Computer Science;  GPA: 9.26}{Jul. 2017 -- Present}
+    \resumeSubheading
+      {\firamedium DAV higher secondary school}{Chennai, IN}
+      {Senior Secondary Education;  GPA: 9.44}{Jun. 2015 -- Apr. 2017}
+   \resumeSubheading
+      {\firamedium Jawahar Vidyalaya}{Chennai, IN}
+      {Secondary Education;  GPA: 9.40}{May. 2015}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\firamedium AT\&T Aspire}{Chennai, IN}
+      {Student Intern}{Aug 2019}
+      \resumeItemListStart
+        \resumeItem{\firamedium Natural Language Processing}
+          {\firabook NLTK is a python library to work with human language data; primarily used for processing large amount of natural language data. Worked on spam filter machine learning model using SVM classifier.}
+        \resumeItem{\firamedium Scikit-Learn}
+          {\firabook Scikit-Learn is a machine learning library for Python.}
+         \resumeItem{\firamedium Alexa Skill Kit}
+        {\firabook Developed custom chatbot with Alexa Skills}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\firamedium Design Esthetics}{Banglore, IN}
+      {Software Engineer Intern}{Dec 2018}
+      \resumeItemListStart
+        \resumeItem{\firamedium React}
+          {\firabook React is a JavaScript library for building user interfaces. Build a self evaluation tool to aid people appearing for national competitive examinations.}
+        \resumeItem{\firamedium Node.js}
+          {\firabook Node.js is a server-side environment that allows Node developers to build servers. Worked with API routing.}
+        \resumeItem{\firamedium MongoDB}
+          {\firabook MongoDB is a NoSQL database program. Worked with mongoose as a middleware to dynamically update the database.}
+        
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\firamedium SRM CARE}{Chennai, IN}
+      {Student Developer}{Jan. 2018 -- Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {\firabook Built scalable web applications used by 10,000+ students that aids them for various competitve exam preparations; Built E-learning tools to digitize the conventional learning process.}
+       \resumeItem{}
+         {\firabook Worked on MERN stack implementing MVC architecture.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{projects}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\firamedium Stock Price Prediction }{}%{Chennai, IN}
+ {Multivariate time series forecasting model to predict stock price using \firamedium LSTM.}{Sept 2019}
+\resumeSubheading
+{\firamedium Document Classifer }{}%{Chennai, IN}
+{NLP model to predict the type of document using \firamedium SVM.}{Aug 2019}
+\resumeSubheading
+{\firamedium SMS Spam Filter }{}%{Chennai, IN}
+ {Natural Language Processing model to predict filter spam messages using \firamedium Keras.}{Aug 2019}
+\resumeSubheading
+{\firamedium Traffic Volume Prediction}{}%{Chennai, IN}
+ {Time series forecasting model to predict the traffic volume using \firamedium XGBoost and \firamedium Gradient Boost.}{Jul 2019}
+\resumeSubheading
+{\firamedium Automatic Licence Plate Recognition}{}%{Chennai, IN}
+ {Deep Learning model to detect the LP and fetch the number using \firamedium TensorFlow,\firamedium YOLOv2 and \firamedium OpenCV.}{Mar 2019}
+\resumeSubheading
+{\firamedium ECircuit }{}%{Chennai, IN}
+ {Web application to simulate electrical connections for experimental purpose using \firamedium MERN Stack.}{Feb 2019}
+\resumeSubheading
+{\firamedium ESkill }{}%{Chennai, IN}
+{\firabook Scalable web application built for students preparing for competitive examinations using \firamedium MERN Stack.}{Dec 2018}
+\resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  %\resumeSubHeadingListStart
+%    \item{
+%      %\textbf{Languages}{
+%      	%: C , C++, Python, Javascript, Java
+%     %\resumeItemListStart
+%     %\resumeItem{C}{}
+%     %\resumeItem{C++}{}
+%     %\resumeItem{Python}{}
+%     %\resumeItem{Javascript}{}
+%     %\resumeItem{Java}{} 
+%     %\resumeItemListEnd
+%  %}
+%      %\hfill
+%      %\textbf{Technologies}{: Scikit-Learn ,Keras, Tableau, React, Node.js}
+%    %}
+%  \begin{minipage}[t]{0.45\linewidth}
+%  	\centering
+%  	\label{fig:figure1}
+%  	\resumeSubHeadingListStart
+%  	\item{
+%  		\textbf{Languages}{
+%  			%: C , C++, Python, Javascript, Java
+%  			\resumeItemListStart
+%  			\resumeItem{C}{}
+%  			\resumeItem{C++}{}
+%  			\resumeItem{Python}{}
+%  			\resumeItem{Javascript}{}
+%  			\resumeItem{Java}{} 
+%  			\resumeItemListEnd
+%  		}
+%  \resumeSubHeadingListEnd
+%  \end{minipage}
+%  \hspace{0.5cm}
+%   \begin{minipage}[t]{0.45\linewidth}
+%  	\centering
+%  	\label{fig:figure1}
+%  	\resumeSubHeadingListStart
+%  	\item{
+%  		\textbf{Technologies}{
+%  			%: C , C++, Python, Javascript, Java
+%  			\resumeItemListStart
+%  			\resumeItem{Scikit-Learn \textbar Keras \textbar TensorFlow}{}
+%  			\resumeItem{Pandas \textbar Seaborn \textbar Tableau}{}
+%  			\resumeItem{React \textbar Node.js \textbar NoSQL}{}
+%  			\resumeItem{Git}{}
+%  			 
+%  			\resumeItemListEnd
+%  		}
+%  		\resumeSubHeadingListEnd
+%  	\end{minipage}
+%
+%  %\resumeSubHeadingListEnd
+\begin{table}[ht]
+	\begin{minipage}[t]{0.45\linewidth}\centering
+		  		\textbf{Language}{
+		  			%: C , C++, Python, Javascript, Java
+		  			\resumeItemListStart
+		  			\resumeItem{\firabook C}{}
+		  			\resumeItem{\firabook C++}{}
+		  			\resumeItem{\firabook Python}{}
+		  			\resumeItem{\firabook Javascript}{}
+		  			\resumeItem{\firabook Java}{}
+		  			\resumeItemListEnd
+		  		}
+
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+			\textbf{Technologies}{
+				%: C , C++, Python, Javascript, Java
+				\resumeItemListStart
+				\resumeItem{\firabook Scikit-Learn \textbar Keras \textbar TensorFlow}{}
+				\resumeItem{\firabook Pandas \textbar Seaborn \textbar Tableau}{}
+				\resumeItem{\firabook React \textbar Node.js \textbar NoSQL}{}
+				\resumeItem{\firabook Git}{}
+				
+				\resumeItemListEnd
+			}
+	\end{minipage}
+\end{table}
+
+%-----------Awards and Language spoken-------------
+\section{Position of responsibility}
+\renewcommand{\arraystretch}{1.7}
+ \begin{table}[ht!]
+  \centering
+    \begin{tabular}{p{5cm}p{12cm}}
+	  2019 & \firabook\textbf{Technical Head} -- White Hat Hacker's Club at SRM IST. \\ 
+	 % \hline
+	  2019 & \firabook\textbf{Student Coordinator} -- Data Analytics workshop in a national level symposium UberTech'19.  \\
+	  2018 & \firabook\textbf{Event organizer} -- Organized a national level symposium Technozarre'19.  \\
+	  2015 & \firabook\textbf{Captain} of National Cadet Corps (Junior Division) 
+    \end{tabular}
+\end{table}
+  
+%-----------Awards-----------------
+\section{Awards and Recognitions}
+\renewcommand{\arraystretch}{1.7}
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{p{5cm}p{12cm}}
+		2019 & \firabook Recognition for securing batch 2nd in academics during 3rd semester.\\
+		2018 & \firabook Awarded in recognition of the technical contribution towards the devlopment of ESkill.\\ 
+		% \hline
+		2018 & \firabook Awarded for organizing a national level hackathon in cyber-security at SRM IST.  \\
+		2016 & \firabook Awarded the Best Outgoing cadet (NCC)  \\
+		2016 & \firabook Won the contingent drill test at the NCC camp.   \\
+		 
+	\end{tabular}
+\end{table}
+  \resumeSubHeadingListStart
+\item{
+	\textbf{Languages}{:\firabook English, Hindi, Tamil}
+	
+}
+\resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+\item{
+	\textbf{Best reads}{:\firabook The greatest salesman in the world, Rich Dad Poor Dad, Digital minimalism, The richest man in babylon}
+	
+}
+\resumeSubHeadingListEnd
+-------------------------------------------
+\end{document}
