@@ -8,6 +8,8 @@
 
 :pushpin: Having a keen interest in Machine Learning and Data Science, I have worked on projects that could potentially create a positive impact in the society. One of them is called **Anonymous Accident Reporting System (AARS)** which is a Flutter application built to encourage people to report an encountered accident. It is based on **TFLite Deep learning model** for Image classification that is trained to detect an accident scene. This application can be used to effectively report accidents to catalyze the process of taking the victim to the nearest hospital. 
 
+:pushpin: I have worked on a data science project to **predict the Traffic Volume** of a place. An exploratory data analysis was conducted on the dataset to find the correlation among the attributes such as weather, date, time etc and **ensembling machine learning techniques** such as **Gradient Descent** and **XGBoost** were implemented to predict the traffic volume.
+
 :pushpin: I enjoy travelling and attending hackathons. Among the many hackathons that we've won as a team, one of my memorable experience was winning the **first place** at the Infineon Campus Hackathon 2019. The task was to identify a time and space efficient data format to store and query large datasets. Understanding the hierarchial nature of the data provided to us, we implemented the Parquet data format that proved to the most efficient data format for the given dataset. 
 
 Some of my undergrad electives include Artificial Intelligence, Machine Learning and Data Analytics.
