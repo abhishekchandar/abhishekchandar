@@ -18,3 +18,4 @@ Apart from work, I spend my time
   * playing ukulele :violin:	
   * playing multiplayer games :video_game:	
   * watching Netflix :film_projector:	
+  * chilling with my buddies :innocent:
