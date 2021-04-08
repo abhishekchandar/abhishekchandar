@@ -15,7 +15,3 @@
 Some of my undergrad electives include Artificial Intelligence, Machine Learning and Data Analytics.
 ***
 *Let's connect!* [**in**](https://www.linkedin.com/in/abhishekchandar/)
-
-Apart from work, I spend my time 
-  * playing ukulele :violin:	
-  * chilling with my buddies :innocent:
