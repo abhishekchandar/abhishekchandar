@@ -6,7 +6,7 @@ I am currently learning some interesting topics along the lines of Natural Langu
 
 
 ***
-Here is a link to my [**personal website**](https://abhishekchandar.github.io/)
+<!-- Here is a link to my [**personal website**](https://abhishekchandar.github.io/) -->
 
 
 *Let's connect!* [**in**](https://www.linkedin.com/in/abhishekchandar/)
